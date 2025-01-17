@@ -1,0 +1,14 @@
+h5py==3.11.0
+matplotlib==3.5.3
+numpy==1.24.4
+pandas==2.0.3
+Pillow==11.1.0
+pydicom==3.0.1
+pytorch_lightning==2.3.3
+pytorch_msssim==1.0.0
+SimpleITK==2.3.1
+SimpleITK==2.4.1
+skimage==0.0
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+tqdm==4.66.4
