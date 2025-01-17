@@ -18,17 +18,17 @@ We use **hdf5** as the data storage method
 `pip install -r requirements.txt`
 
 ### Data storage
-/hdf5_root/case_names/modality.dhf5
-/dcm_root/case_name/...
+/hdf5_root/case_names/modality.dhf5  
+/dcm_root/case_name/...  
 > 'modality' contains '3D-T1W', '3D-T2W', '3D-FLAIR', '3D-TOF-MRA'
 
 ### Train
-`python train.py`
+`python train.py`  
 options.data_root: hdf5_root
 
 ### Inference
-`python test_all.py`
-options.data_root: hdf5_root
+`python test_all.py`  
+options.data_root: hdf5_root  
 options.dcm_root: dicom_root
 
 ## Acknowledge
